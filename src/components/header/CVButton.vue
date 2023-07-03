@@ -9,7 +9,7 @@ export default {
   computed: {
     getImgUrl() {
       return new URL(
-        "../../assets/downloads/pumbadev-resume.pdf",
+        "../../assets/downloads/Lucas-Ertel-Desenvolvedor-Web.pdf",
         import.meta.url
       ).href;
     },

@@ -1,8 +1,8 @@
 <template>
   <section class="home-presentation">
-    <h1 class="home-title">Desenvolvedor Front-End & Backend (Com maiores Habilidades Em Frontend)</h1>
+    <h1 class="home-title">Desenvolvedor Web FullStack (Linguagem que domina : PHP)</h1>
     <h2 class="home-subtitle">
-      Eu acho que a prática e a disciplina e o caráter principalmente ti levam longe
+      Eu acho que a prática,disciplina e o caráter levam longe
     </h2>
   </section>
 </template>

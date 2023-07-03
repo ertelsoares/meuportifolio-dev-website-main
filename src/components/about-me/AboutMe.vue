@@ -2,14 +2,12 @@
   <BackgroundBlue class="first-bg-blue">
     <div class="about-me-text">
       <h1 class="about-me-title">
-        Oi, eu sou o Paulo, fico feliz em lhe conhecer!
+        Oi, eu sou o Lucas, estou empolgado que queira me Conhecer!
       </h1>
       <h2 class="about-me-subtitle">
-        Eu comecei na computação desde muito jovem, aos 16 anos já estava
-        oferecendo meus primeiros serviços como design. Logo depois, fui para a
-        universidade estudar ciência da computação, onde aprendi sobre o mundo
-        da programação. Hoje, meus dias são repletos de códigos e cursos que me
-        ajudam a desenvolver aplicações web completas como esta.
+        Eu comecei o interesse por computador deis de muito cedo aos 12 anos de idades na parte de hardware e comecei o contato com progrmação aos 20 anos 
+        hoje tenho 24 anos , trabalhei já dois anos na parte de desenvolvimento web com o frontend e backend utilizando principalmente php no backend tanto em laravel como em PDO e no padrão mvc. Estudo atualmente na universidade Federal do Paraná faço análise de sistemas para internet 
+        estou no 4º período, eu sou dedicado e humilde e sincero acho essas são as 3 características que mais me define e a principal é compromisso . 
       </h2>
     </div>
   </BackgroundBlue>

@@ -1,8 +1,5 @@
 <template>
   <ul class="nav-btn-list">
-    <li>
-      <a :href="getImgUrl" target="_blank" class="btn-text"> English CV </a>
-    </li>
     <li><CVButton></CVButton></li>
   </ul>
 </template>

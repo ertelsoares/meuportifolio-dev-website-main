@@ -18,7 +18,7 @@ export default {
   computed: {
     getImgUrl() {
       return new URL(
-        `../../assets/svg/my-skills/${this.skill.src}.svg`,
+        `../../assets/svg/LOGOS-SKILLS/${this.skill.src}.svg`,
         import.meta.url
       ).href;
     },
