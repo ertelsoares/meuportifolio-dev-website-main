@@ -15,6 +15,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "axios": "^0.24.0",
+    "cors": "^2.8.5",
     "eslint": "^8.6.0",
     "express": "^4.17.2",
     "i": "^0.3.7",

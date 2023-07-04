@@ -1,5 +1,5 @@
 <template>
-  <form id="mail-form" class="mail-form">
+  <form id="mail-form"  @submit.prevent="sendEmail" class="mail-form">
     <transition name="fade">
       <FormNotify v-if="hasNotify" :Notify="Notify"></FormNotify>
     </transition>
@@ -35,7 +35,7 @@
         required
       />
     </FormInput>
-    <InputBtn @click.prevent="sendEmail()"></InputBtn>
+    <InputBtn type="submit"></InputBtn>
   </form>
 </template>
 
@@ -45,6 +45,7 @@ import emailjs from "@emailjs/browser";
 import FormInput from "./Input.vue";
 import InputBtn from "./InputBtn.vue";
 import FormNotify from "./Notify.vue";
+import axios from "axios";
 export default {
   components: { FormInput, InputBtn, FormNotify },
   data() {
@@ -62,35 +63,43 @@ export default {
     };
   },
   methods: {
-    sendEmail() {
-      // Data
-      const SERVICEID = "service_18xgfsm";
-      const TEMPLATEID = "template_wdjv41l";
-      const USERID = "user_fFjRZ4nh2baVVBbo9WDTb";
-      const MAILFORM = {
-        user_name: this.formInput.name,
-        user_email: this.formInput.email,
-        message: this.formInput.message,
-      };
+    sendplanilha(){
+      
+    },
+    async sendEmail() {
+  var formData = new FormData();
+  formData.append("entry.1970420736", this.formInput.name);
+  formData.append("entry.1609103231", this.formInput.email);
+  formData.append("entry.1280598276", this.formInput.message);
 
-      // Verify if the form is filled
-      if (this.formFilled(MAILFORM)) {
-        // Send EMAIL
-        emailjs
-          .send(SERVICEID, TEMPLATEID, MAILFORM, USERID)
-          .then((sendMailResult) => {
-            if (sendMailResult.status === 200) {
-              this.showNotify("Mensagem enviada com sucesso!", "sucess");
-              this.resetInput();
-            } else {
-              this.showNotify("Erro ao enviar mensagem!", "error");
-              this.resetInput();
-            }
-          });
-      } else {
+  // Verifica se o forms falha e envia feedback
+      if (this.formFilled(formData)) {
+                try {
+                  this.showNotify("Mensagem enviada com sucesso!", "sucess");
+                          this.resetInput();
+                   await $.ajax({
+                            url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSclfasf1m5T82vLEuLRbLQmr3ZlyNK4AgYM9694bw3voEEOrg/formResponse",
+                            type: "POST",
+                            data: formData,
+                            async: true,
+                            cache: false,
+                            contentType: false,
+                            processData: false,
+                        });
+                } catch ( error) {
+                   return false;
+                };
+                
+                
+      
+                  
+       } else {
         this.showNotify("Preencha todos os campos!", "error");
       }
-    },
+                       
+    
+},
+    
     formFilled(form) {
       for (let key in form) {
         if (form[key] === "") {
