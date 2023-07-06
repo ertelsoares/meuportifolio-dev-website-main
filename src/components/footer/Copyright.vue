@@ -1,5 +1,5 @@
 <template>
-  <span class="copyright-text"> Design by © 2022 Pumba Developer </span>
+  <span class="copyright-text"> Design by © 2023 Lucas Ertel Developer </span>
 </template>
 
 <style scoped>

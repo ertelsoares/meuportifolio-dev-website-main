@@ -59,7 +59,7 @@ export default {
 
 .card-data-desc {
   @apply font-medium 
-  text-base w-[15rem] h-[8rem]
+  text-base w-[100%] h-[8rem]
   xs:w-[17.5rem] xs:h-[7rem]
   md:text-base md:w-[20rem] md:h-[6rem]
   xl:w-[23rem] xl:h-[5.25rem];

@@ -2,31 +2,21 @@ export default [
   {
     name: "GitHub",
     src: "github-icon",
-    link: "https://github.com/pumba-dev",
+    link: "https://github.com/ertelsoares",
   },
   {
     name: "Linkedin",
     src: "linkedin-icon",
-    link: "https://www.linkedin.com/in/pumba-dev/",
-  },
-  {
-    name: "Twitter",
-    src: "twitter-icon",
-    link: "https://www.twitter.com/pumbadev",
+    link: "https://www.linkedin.com/in/lucas-ertel-07aa00163/",
   },
   {
     name: "Facebook",
     src: "facebook-icon",
-    link: "https://www.facebook.com/pumbadev/",
-  },
-  {
-    name: "Instagram",
-    src: "instagram-icon",
-    link: "https://www.instagram.com/strogonothing/",
+    link: "https://www.facebook.com/lucas.ertel.5/",
   },
   {
     name: "Email",
     src: "mail-icon",
-    link: "mailto:pumbadeveloper@gmail.com",
+    link: "mailto:lucassoares@alunos.utfpr.edu.br",
   },
 ];

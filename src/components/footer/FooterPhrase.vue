@@ -1,6 +1,6 @@
 <template>
   <span class="footer-phrase">
-    Aprendendo, Codando e Vivendo<br />um dia de cada vez.
+    “Nós somos aquilo que fazemos repetidamente.<br/> Excelência, portanto, não é um ato mas sim um hábito.” (Aristóteles).
   </span>
 </template>
 

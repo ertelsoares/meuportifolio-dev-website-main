@@ -15,7 +15,6 @@ import BackgroundBlue from "../shared/BackgroundBlue.vue";
 import Logo from "../shared/Logo.vue";
 import Copyright from "./Copyright.vue";
 import FooterPhrase from "./FooterPhrase.vue";
-import MadeWith from "./MadeWith.vue";
 import SocialLinks from "./SocialLinks.vue";
 
 export default {
@@ -25,7 +24,6 @@ export default {
     FooterPhrase,
     SocialLinks,
     Copyright,
-    MadeWith,
   },
 };
 </script>

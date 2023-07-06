@@ -1,8 +1,8 @@
 <template>
   <section class="home-presentation">
-    <h1 class="home-title">Desenvolvedor Web FullStack (Linguagem que domina : PHP)</h1>
+    <h1 class="home-title">Desenvolvedor Web FullStack (PHP/JAVA)</h1>
     <h2 class="home-subtitle">
-      Eu acho que a prática,disciplina e o caráter levam longe
+      Prática, disciplina e caráter: a chave para o sucesso duradouro.
     </h2>
   </section>
 </template>

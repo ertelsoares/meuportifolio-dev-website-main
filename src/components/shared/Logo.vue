@@ -1,8 +1,8 @@
 <template>
   <img
     class="logo"
-    src="/src/assets/svg/general/logo.svg"
-    alt="Pumba Developer Logo"
+    src="/src/assets/svg/general/Logotipo_Lucas_ertel_dev.svg"
+    alt="Lucas Developer Logo"
     @click="this.scrollUp()"
   />
 </template>

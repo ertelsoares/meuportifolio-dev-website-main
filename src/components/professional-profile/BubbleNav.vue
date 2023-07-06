@@ -11,6 +11,6 @@
 }
 
 .bubble-nav.active {
-  @apply bg-blue;
+  background-color: #4d8eff;
 }
 </style>

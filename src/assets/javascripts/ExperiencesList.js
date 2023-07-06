@@ -1,20 +1,21 @@
 export default [
   {
-    title: "Ciência da Computação",
-    desc: "Bacharel no curso de ciência da computação em andamento na Universidade Federal do Piauí - UFPI.               80% concluído",
+    title: "Biopark Aux De Sistemas(1 ano e 2 meses)",
+    desc: "REALIZEI TAREFAS DE DESENVOLVIMENTO DE SISTEMAS WEB, LANDING PAGES E MANUTENÇÃO/REFATORAÇÃO DE SITES.",
+    src: "government-fill",
+    alt: "Ícone Job",
+  },
+  {
+    title: "Sistemas Para Internet ",
+    desc: "Aluno no curso de Sistemas Para Internet(4° período) em andamento na Universidade  Tecnológica Federal do Paraná - UTFP. 70% concluído",
     src: "university-icon",
     alt: "Ícone da Universidade",
   },
+  
   {
-    title: "Iniciação Científica",
-    desc: "Pesquisa na área de Redes Ópticas Elásticas com Multiplexação por Divisal Espacial. Foi desenvolvido um algoritmo de alocação que foi apresentado no SBRC 2021.",
-    src: "cnpq-icon",
-    alt: "Ícone do CNPQ",
-  },
-  {
-    title: "Ponto Sistemas Soluções Web",
-    desc: "Desenvolvedor Front-End e UI/UX Design de aplicações web. Durante o desenvolvimento foram utilizado tecnologias como VueJS 3 e SASS para criação dos componentes visuais.",
-    src: "ponto-sistemas-icon",
-    alt: "Ícone da Ponto Sistemas Soluções Web",
+    title: "TECTRON (11 MESES)",
+    desc: "EXPERIÊNCIA EM DESENVOLVIMENTO DE SITES PARA EVENTOS (HTML, CSS, PHP) E E-COMMERCE DE ALIMENTOS PARA ANIMAIS (LARAVEL CMS).",
+    src: "government-fill",
+    alt: "Ícone Job",
   },
 ];
